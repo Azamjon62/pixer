@@ -1,0 +1,504 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+li
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.header
+{
+    border-bottom: 2px solid #E1E7ED;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 89px;
+    background: #fff;
+}
+
+.container
+{
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.head
+{
+    display: flex;
+    align-items: center;
+    width: 1180px;
+    height: 89px;
+}
+
+.header nav
+{
+    margin-left: 50px;   
+}
+
+.header nav ul
+{
+    display: flex;
+    gap: 30px;
+}
+
+.header nav ul li a
+{
+    font-weight: 500;
+    color: #101010;
+}
+
+.header nav ul li a:active
+{
+    color: #101010ab;
+}
+
+.header-mar
+{
+    margin: 0 0 0 auto;
+}
+
+.header-btn
+{
+    cursor: pointer;
+    padding: 12px 24px;
+    background: #101010;
+    border-radius: 6px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 14px;
+    transition: all 0.5s;
+}
+
+.header-btn:hover
+{
+    background: #101010a5;
+}
+
+/* Header qismi tugadi */
+
+.section-hero
+{
+    margin: 182px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.section-description
+{
+    padding: 0 60px 0 0;
+}
+
+.section-description-title
+{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 140%;
+    color: #101010;
+}
+
+.section-description-wrapper
+{
+    margin: 20px 0 0 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #636F87;
+}
+
+.section-description-btn
+{
+    cursor: pointer;
+    margin: 40px 0 0 0;
+    padding: 20px 40px;
+    background: #1AAB7B;
+    border-radius: 6px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.section-description-btn:active
+{
+    background: #1aab7b9b;
+}
+
+.section-video iframe
+{
+    border: none;
+}
+
+.services
+{
+    margin: 156px 0 100px 0;
+    height: 938px;border: none;
+    background: #F2F4F6;
+}
+
+.sectio-services-title
+{
+    font-weight: 600;
+    font-size: 36px;
+    padding: 50px 0 10px 0;
+    text-align: center;
+    color: #101010;
+}
+
+.link
+{
+    color: black;
+}
+
+.sectio-services-card
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.sectio-services-card:last-child
+{
+    justify-content: flex-start;
+    margin-top: 23px;
+}
+
+.sectio-services-card-box
+{
+    padding: 30px;
+    border: 2px solid #E1E7ED;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.sectio-services-card-box.active
+{
+    margin-left: 23px;
+}
+
+.sectio-services-card-box:hover
+{
+    color: #fff;
+    background: #1AAB7B;
+}
+
+
+.sectio-services-card-box-flex
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.sectio-services-card-box-flex h3
+{
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.sectio-services-card-box-flex span
+{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: #E1E7ED;
+}
+
+.sectio-services-card-box-flex span img
+{
+    margin: 17px 17.25px 17px 16.75px;
+}
+
+.sectio-services-card-box-wrapper
+{
+    width: 314px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    margin: 11px 0 50px 0;
+}
+
+.sectio-services-card-box-more
+{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    width: 100%;
+    height: 100%;
+}
+
+.sectio-services-card-box-more:hover
+{
+    text-decoration-line: underline;
+}
+
+
+/* Services qismi tugadi */
+
+.section-work
+{
+    margin: 0 0 150px 0;
+}
+
+.section-work-title
+{
+    font-weight: 600;
+    font-size: 36px;
+    text-align: center;
+    color: #101010;
+}
+
+.section-work-wrapper
+{
+    width: 650px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    margin: 16px auto;
+    color: #636F87;
+}
+
+.work-card
+{
+    margin-top: 90px;
+    display: flex;
+}
+
+.work-card.action
+{
+    flex-direction: row-reverse;
+}
+
+.work-card.action .work-card-text
+{
+    margin-top: 42px;
+}
+
+.work-card.action .work-card-wrapper
+{
+    width: 592px;
+    margin: 16px 32px 0 0;
+}
+
+.work-card-text
+{
+    margin: 32px 0 0 32px;
+}
+
+.work-card-title
+{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 140%;
+    color: #101010;
+}
+
+.work-card-wrapper
+{
+    margin-top: 20px;
+    width: 488px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #636F87;
+}
+
+.order-title
+{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 140%;
+    text-align: center;
+    color: #101010;
+}
+
+.order-wrapper
+{
+    margin: 16px auto;
+    width: 650px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #636F87;
+}
+
+.order-register
+{
+    margin: 60px auto;
+    border-radius: 6px;
+    width: 1008px;
+    height: 515px;
+    background: #F2F4F6;
+}
+
+.order-register form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.order-register form label input
+{
+    width: 384px;
+    padding: 21px 0;
+    font-weight: 600;
+    font-size: 20px;
+    color: #101010;
+    margin: 31px 0 0 0;
+    border: none;
+    background: #F2F4F6;
+    border-bottom: 1px solid rgb(100, 111, 135, 0.2);
+    outline: none;
+}
+
+.order-register form label input::placeholder
+{
+    color: #101010;
+}
+
+.select select
+{
+    border: none;
+    background: #F2F4F6;
+    margin-top: 31px;
+    width: 384px;
+    padding: 21px 0;
+    outline: none;
+    border-bottom: 1px solid rgb(100, 111, 135, 0.2);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #101010;
+}
+
+.order-btn
+{
+    background: #1AAB7B;
+    border-radius: 6px;
+    border: none;
+    margin: 40px 0 25px 0;
+    padding: 20px 69.5px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    transition: all 0.3s;
+}
+
+.order-btn:hover
+{
+    background: #1aab7bca;
+}
+
+.order-btn:active
+{
+    padding: 19px 68.5px;
+}
+
+
+.order-wrap
+{
+    margin: 10px 0 0 0;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #858EA2;
+}
+
+footer
+{
+    margin: 200px 0 0 0;
+    background: black;
+    width: 100%;
+    height: 622px;
+}
+
+.footer-flex
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-help
+{
+    display: flex;
+    gap: 151px;
+}
+
+.footer-help li a, .footer-right-help li a
+{
+    color: #A1A8B7;
+}
+
+.footer-help-left h4
+{
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin: 100px 0 30px 0;
+}
+
+.footer-help-left ul li
+{
+    margin: 0 0 26px 0;
+}
+
+.footer-right-help h4
+{
+    margin: 100px 0 30px 0;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.footer-right-help ul li
+{
+    margin: 0 0 26px 0;
+}
+
+.footer-help-left ul li a:hover, .footer-right-help ul li a:hover
+{
+    color: #1AAB7B;
+}
+
+ion-icon
+{
+    margin: 0 40px 0 0;
+    color: #fff;
+}
+
+.footer-bottom
+{
+    height: 125px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-bottom p
+{
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+}
