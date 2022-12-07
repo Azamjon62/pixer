@@ -424,6 +424,7 @@ a
 
 .order-btn
 {
+    cursor: pointer;
     background: #1AAB7B;
     border-radius: 6px;
     border: none;
