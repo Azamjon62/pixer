@@ -199,6 +199,11 @@ a
     background: #1AAB7B;
 }
 
+.sectio-services-card-box:hover .sectio-services-card-box-more
+{
+    text-decoration: underline;
+}
+
 
 .sectio-services-card-box-flex
 {
