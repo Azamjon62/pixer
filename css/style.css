@@ -190,7 +190,7 @@ a
 
 .sectio-services-card-box.active
 {
-    margin-left: 23px;
+    margin-left: 25px;
 }
 
 .sectio-services-card-box:hover
@@ -201,12 +201,23 @@ a
 
 .sectio-services-card-box:hover .sectio-services-card-box-more
 {
+    color: #fff;
     text-decoration: underline;
 }
 
 .sectio-services-card-box:hover .sectio-services-card-box-flex span
 {
     background: #fff;
+}
+
+.sectio-services-card-box:hover .sectio-services-card-box-flex h3
+{
+    color: #fff;
+}
+
+.sectio-services-card-box:hover .sectio-services-card-box-wrapper
+{
+    color: #fff;
 }
 
 .sectio-services-card-box-flex
@@ -247,18 +258,13 @@ a
 
 .sectio-services-card-box-more
 {
+    color: #101010;
     font-weight: 700;
     font-size: 20px;
     line-height: 140%;
     width: 100%;
     height: 100%;
 }
-
-.sectio-services-card-box-more:hover
-{
-    text-decoration-line: underline;
-}
-
 
 /* Services qismi tugadi */
 
@@ -423,7 +429,6 @@ a
 {
     padding: 19px 68.5px;
 }
-
 
 .order-wrap
 {
