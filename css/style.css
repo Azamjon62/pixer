@@ -60,6 +60,12 @@ a
 {
     font-weight: 500;
     color: #101010;
+    transition: all 0.3s;
+}
+
+.header nav ul li a:hover
+{
+    color: #1AAB7B;
 }
 
 .header nav ul li a:active
@@ -133,10 +139,19 @@ a
     font-weight: 700;
     font-size: 16px;
     color: #FFFFFF;
+    transition: all 0.3s;
+}
+
+.section-description-btn:hover
+{
+    color: #1AAB7B;
+    background: #fff;
+    border: 1.5px solid #1AAB7B;
 }
 
 .section-description-btn:active
 {
+    color: #fff;
     background: #1aab7b9b;
 }
 
