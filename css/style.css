@@ -204,6 +204,10 @@ a
     text-decoration: underline;
 }
 
+.sectio-services-card-box:hover .sectio-services-card-box-flex span
+{
+    background: #fff;
+}
 
 .sectio-services-card-box-flex
 {
